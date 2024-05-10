@@ -1,0 +1,26 @@
+{
+  "name": "checkout-delivery-instructions",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "@shopify/app": "3.49.3",
+    "@shopify/cli": "3.49.3"
+  },
+  "trustedDependencies": [
+    "@shopify/plugin-cloudflare"
+  ],
+  "author": "Ankit",
+  "private": true,
+  "workspaces": [
+    "extensions/*"
+  ]
+}
